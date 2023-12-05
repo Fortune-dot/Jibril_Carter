@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-26xl: 45px;
+    --font-size-xl: 20px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray: #020202;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }

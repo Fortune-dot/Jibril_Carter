@@ -1,0 +1,137 @@
+.jibril-carter-jibril{
+    background-color: white;
+    height: 300px;
+    color: black;
+}
+.jibril-carter-jibril1,
+.jibril-carter-jibril2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+}
+.jibril-carter-jibril1,
+.jibril-carter-jibril2 {
+  left: 5493px;
+}
+.jibril-carter-jibril2 {
+  left: 10986px;
+}
+.jibril-carter-jibril-carter-ji-parent {
+  position: absolute;
+  top: 190px;
+  left: -2656px;
+  width: 6143px;
+  height: 182px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.desktop-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1440px;
+  height: 2751px;
+  overflow: hidden;
+}
+.bio {
+  position: relative;
+}
+.header {
+  position: absolute;
+  top: 94px;
+  left: 85px;
+  background-color: var(--color-white);
+  width: 735px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 200px;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray);
+}
+.skjermbilde-2023-11-06-kl-18 {
+  position: absolute;
+  top: 671px;
+  left: 85px;
+  width: 1282px;
+  height: 1567px;
+  object-fit: cover;
+}
+.skjermbilde-2023-11-06-kl-181,
+.skjermbilde-2023-11-06-kl-182 {
+  position: absolute;
+  top: 726px;
+  left: 796px;
+  width: 505px;
+  height: 565px;
+  object-fit: cover;
+}
+.skjermbilde-2023-11-06-kl-182 {
+  top: 1095px;
+  left: 115px;
+  width: 554px;
+  height: 644px;
+}
+.skjermbilde-2023-11-06-kl-183,
+.skjermbilde-2023-11-06-kl-184 {
+  position: absolute;
+  top: 2757px;
+  left: 74px;
+  width: 1282px;
+  height: 1273px;
+  object-fit: cover;
+}
+.skjermbilde-2023-11-06-kl-184 {
+  top: 1841px;
+  left: 472px;
+  width: 884px;
+  height: 883px;
+}
+.reel {
+    position: relative;
+    font-weight: 800;
+    display: flex;
+    flex-wrap: wrap;
+  }
+.reel-parent {
+  position: absolute;
+  top: 493px;
+  left: 85px;
+  width: 1015px;
+  display: flex;
+  flex-direction: row;  
+  gap: 720px;
+  font-size: var(--font-size-26xl);
+}
+.desktop-1-parent {
+  position: relative;
+  width: 100%;
+  height: 4030px;
+  text-align: left;
+  font-size: var(--font-size-131xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+@keyframes marquee {
+    0% {
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .marquee {
+    animation: marquee 25s linear infinite;
+    color: black;
+    font-size: 150px;
+    font-family: Inter;
+    font-weight: 800;
+    letter-spacing: 15px;
+    word-wrap: break-word;
+  }
