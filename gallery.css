@@ -1,7 +1,7 @@
-.jibril-carter-jibril{
-    background-color: white;
-    height: 300px;
-    color: black;
+.jibril-carter-jibril {
+  background-color: white;
+  height: 300px;
+  color: black;
 }
 .jibril-carter-jibril1,
 .jibril-carter-jibril2 {
@@ -92,18 +92,18 @@
   height: 883px;
 }
 .reel {
-    position: relative;
-    font-weight: 800;
-    display: flex;
-    flex-wrap: wrap;
-  }
+  position: relative;
+  font-weight: 800;
+  display: flex;
+  flex-wrap: wrap;
+}
 .reel-parent {
   position: absolute;
   top: 493px;
   left: 85px;
   width: 1015px;
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   gap: 720px;
   font-size: var(--font-size-26xl);
 }
@@ -118,20 +118,54 @@
 }
 
 @keyframes marquee {
-    0% {
-      transform: translateX(50%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
+  0% {
+    transform: translateX(50%);
   }
-  
-  .marquee {
-    animation: marquee 25s linear infinite;
-    color: black;
-    font-size: 150px;
-    font-family: Inter;
-    font-weight: 800;
-    letter-spacing: 15px;
-    word-wrap: break-word;
+  100% {
+    transform: translateX(-100%);
   }
+}
+
+.marquee {
+  animation: marquee 25s linear infinite;
+  color: black;
+  font-size: 150px;
+  font-family: Inter;
+  font-weight: 800;
+  letter-spacing: 15px;
+  word-wrap: break-word;
+}
+@media only screen and (max-width: 700px) {
+  .desktop-1-parent {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .header {
+    gap: 50px;
+  }
+  .jibril-carter-jibril-carter-ji-parent {
+    z-index: 100;
+  }
+
+  .desktop-1 {
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .skjermbilde-2023-11-06-kl-18,
+  .skjermbilde-2023-11-06-kl-181,
+  .skjermbilde-2023-11-06-kl-182,
+  .skjermbilde-2023-11-06-kl-183,
+  .skjermbilde-2023-11-06-kl-184 {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    left: 0;
+  }
+  .reel-parent {
+    gap: 30px;
+  }
+  .realer {
+    scale: 0.8;
+  }
+}

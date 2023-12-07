@@ -944,3 +944,54 @@
 .contact-holder:nth-child(even) .item {
   animation: marquee-right 10s linear infinite;
 }
+
+@media only screen and (max-width: 700px) {
+  .linked-path-group {
+    /* height: 100px!important; */
+    scale: 1;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    width: 828.66px;
+    height: 828.68px;
+    transform: rotate(36deg);
+    display: flex;
+    flex-wrap: wrap;
+
+    font-size: var(--font-size-26xl);
+    color: var(--color-black);
+    transform-origin: 50% 50%;
+    animation: rotateInPlace 10s linear infinite; /* Adjust the animation properties as needed */
+  }
+  .skjermbilde-2023-11-09-kl-19 {
+    /* height: 100px!important; */
+    width: 60%; /* Adjust the width as needed */
+    max-width: 100%; /* Ensure it doesn't exceed the screen width */
+    height: auto; /* Maintain the aspect ratio */
+    position: absolute;
+    bottom: 0;
+    right: 180; /* Adjust this value based on your layout */
+    transform: translateX(50%); /* Center the image horizontally */
+  }
+  .header {
+    gap: 50px;
+  }
+  .content-holder {
+    position: absolute;
+    top: 700px;
+    left: 110px;
+    width: 378px;
+    height: 239px;
+  }
+
+  .contact-holder {
+    height: 200px;
+    padding-top: 200px;
+  }
+  .secondtext {
+    margin-top: 150px;
+  }
+  span {
+    scale: 0.7;
+  }
+}
